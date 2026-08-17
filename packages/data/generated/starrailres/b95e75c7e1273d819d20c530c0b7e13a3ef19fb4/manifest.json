@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "StarRailRes",
+  "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4",
+  "language": "en",
+  "files": [
+    "characters.json",
+    "character_promotions.json",
+    "character_skills.json",
+    "character_skill_trees.json",
+    "light_cones.json",
+    "light_cone_promotions.json",
+    "relics.json",
+    "relic_sets.json",
+    "relic_main_affixes.json",
+    "relic_sub_affixes.json"
+  ],
+  "fetchedAt": "2026-08-13T19:02:40.626Z",
+  "coverage": "unsupported"
+}

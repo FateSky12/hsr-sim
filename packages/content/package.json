@@ -1,0 +1,18 @@
+{
+  "name": "@hsr-sim/content",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "@hsr-sim/data": "file:../data",
+    "@hsr-sim/engine": "file:../engine"
+  }
+}

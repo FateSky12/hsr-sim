@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "name": "abstracted-calibration-sample",
+  "source": "repository-fixture-not-client-recording",
+  "panel": {
+    "expected": { "hp": 1000, "atk": 200, "def": 300, "spd": 134, "critRate": 0.7, "critDmg": 1.5, "breakEffect": 0.8, "effectHitRate": 0.2 },
+    "observed": { "hp": 1000, "atk": 200, "def": 300, "spd": 134, "critRate": 0.7, "critDmg": 1.5, "breakEffect": 0.8, "effectHitRate": 0.2 }
+  },
+  "damageTrace": [
+    { "index": 0, "expected": 1000, "observed": 1000, "tolerance": 0.005 }
+  ],
+  "actionTrace": [
+    { "index": 0, "expectedActor": "fixture_actor", "observedActor": "fixture_actor", "expectedAbility": "basic", "observedAbility": "basic", "expectedAt": 0, "observedAt": 0 }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "apocalyptic-shadow-4.4-abstracted",
+  "mode": "apocalyptic_shadow",
+  "version": "4.4-abstracted-1",
+  "totalWaves": 1,
+  "enemies": [
+    {
+      "id": "as_4_4_training_boss",
+      "name": "末日幻影参数化首领",
+      "level": 95,
+      "hp": 600000,
+      "atk": 1200,
+      "defBase": 1150,
+      "spd": 150,
+      "maxToughness": 600,
+      "weaknesses": ["fire", "wind", "imaginary"],
+      "resOverrides": {"physical": 0.4},
+      "behavior": {"pattern": ["basic", "basic", "basic"], "onBreak": {"actionDelay": 0.3}, "phases": []},
+      "source": {"kind": "scenario-fixture", "revision": "4.4-abstracted-1"},
+      "coverage": "abstracted"
+    }
+  ],
+  "scoring": {"cycleBudget": 8, "clearBonus": 500, "breakWeight": 250, "breakDamageWeight": 0.5, "killWeight": 100},
+  "coverage": "abstracted"
+}

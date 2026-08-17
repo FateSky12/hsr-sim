@@ -1,0 +1,20 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "references": [
+    { "path": "../../packages/engine" },
+    { "path": "../../packages/data" },
+    { "path": "../../packages/equipment" },
+    { "path": "../../packages/content" },
+    { "path": "../../packages/policy" },
+    { "path": "../../packages/replay" },
+    { "path": "../../packages/scenarios" }
+    ,{ "path": "../../packages/search" }
+  ],
+  "include": ["src/**/*.ts"]
+}

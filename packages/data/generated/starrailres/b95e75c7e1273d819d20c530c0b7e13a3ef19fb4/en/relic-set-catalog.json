@@ -1,0 +1,1059 @@
+[
+  {
+    "id": "101",
+    "name": "Passerby of Wandering Cloud",
+    "twoPiece": [
+      {
+        "stat": "HealBoost",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "102",
+    "name": "Musketeer of Wild Wheat",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "103",
+    "name": "Knight of Purity Palace",
+    "twoPiece": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.15
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "104",
+    "name": "Hunter of Glacial Forest",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostIce",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "104:conditional:2",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "CritDmg",
+          "value": 0.25
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "105",
+    "name": "Champion of Streetwise Boxing",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostPhysical",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "106",
+    "name": "Guard of Wuthering Snow",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "107",
+    "name": "Firesmith of Lava-Forging",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostFire",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "108",
+    "name": "Genius of Brilliant Stars",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostQuantum",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "109",
+    "name": "Band of Sizzling Thunder",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostLightning",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "109:conditional:2",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.2
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "110",
+    "name": "Eagle of Twilight Line",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostWind",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "111",
+    "name": "Thief of Shooting Meteor",
+    "twoPiece": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "112",
+    "name": "Wastelander of Banditry Desert",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostImaginary",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "113",
+    "name": "Longevous Disciple",
+    "twoPiece": [
+      {
+        "stat": "HPPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "114",
+    "name": "Messenger Traversing Hackerspace",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "114:conditional:2",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "SPDPercent",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "115",
+    "name": "The Ashblazing Grand Duke",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "116",
+    "name": "Prisoner in Deep Confinement",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "117",
+    "name": "Pioneer Diver of Dead Waters",
+    "twoPiece": [],
+    "fourPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.04
+      }
+    ],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "118",
+    "name": "Watchmaker, Master of Dream Machinations",
+    "twoPiece": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "118:conditional:2",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "BreakEffect",
+          "value": 0.3
+        },
+        "duration": 2,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "119",
+    "name": "Iron Cavalry Against the Scourge",
+    "twoPiece": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "120",
+    "name": "The Wind-Soaring Valorous",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.06
+      }
+    ],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "121",
+    "name": "Sacerdos' Relived Ordeal",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "122",
+    "name": "Scholar Lost in Erudition",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "123",
+    "name": "Hero of Triumphant Song",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "124",
+    "name": "Poet of Mourning Collapse",
+    "twoPiece": [
+      {
+        "stat": "DmgBoostQuantum",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": -0.08
+      }
+    ],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "125",
+    "name": "Warrior Goddess of Sun and Thunder",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "126",
+    "name": "Wavestrider Captain",
+    "twoPiece": [
+      {
+        "stat": "CritDmg",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "126:conditional:2",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.48
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "127",
+    "name": "World-Remaking Deliverer",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "128",
+    "name": "Self-Enshrouded Recluse",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "129",
+    "name": "Ever-Glorious Magical Girl",
+    "twoPiece": [
+      {
+        "stat": "CritDmg",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "130",
+    "name": "Diviner of Distant Reach",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "131",
+    "name": "As Navigator Isee Sees It",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "132",
+    "name": "Divine-Querying Master Smith",
+    "twoPiece": [
+      {
+        "stat": "HPPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "301",
+    "name": "Space Sealing Station",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "302",
+    "name": "Fleet of the Ageless",
+    "twoPiece": [
+      {
+        "stat": "HPPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "303",
+    "name": "Pan-Cosmic Commercial Enterprise",
+    "twoPiece": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "304",
+    "name": "Belobog of the Architects",
+    "twoPiece": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.15
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "305",
+    "name": "Celestial Differentiator",
+    "twoPiece": [
+      {
+        "stat": "CritDmg",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "306",
+    "name": "Inert Salsotto",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "307",
+    "name": "Talia: Kingdom of Banditry",
+    "twoPiece": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "308",
+    "name": "Sprightly Vonwacq",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "309",
+    "name": "Rutilant Arena",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "310",
+    "name": "Broken Keel",
+    "twoPiece": [
+      {
+        "stat": "EffectRes",
+        "value": 0.1
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "311",
+    "name": "Firmament Frontline: Glamoth",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "312",
+    "name": "Penacony, Land of the Dreams",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "313",
+    "name": "Sigonia, the Unclaimed Desolation",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.04
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "314",
+    "name": "Izumo Gensei and Takama Divine Realm",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "315",
+    "name": "Duran, Dynasty of Running Wolves",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "316",
+    "name": "Forge of the Kalpagni Lantern",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "317",
+    "name": "Lushaka, the Sunken Seas",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "318",
+    "name": "The Wondrous BananAmusement Park",
+    "twoPiece": [
+      {
+        "stat": "CritDmg",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "319",
+    "name": "Bone Collection's Serene Demesne",
+    "twoPiece": [
+      {
+        "stat": "HPPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "320",
+    "name": "Giant Tree of Rapt Brooding",
+    "twoPiece": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "321",
+    "name": "Arcadia of Woven Dreams",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "322",
+    "name": "Revelry by the Sea",
+    "twoPiece": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "323",
+    "name": "Amphoreus, The Eternal Land",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "324",
+    "name": "Tengoku@Livestream",
+    "twoPiece": [
+      {
+        "stat": "CritDmg",
+        "value": 0.16
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "325",
+    "name": "Punklorde Stage Zero",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "326",
+    "name": "City of Converging Stars",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [
+      {
+        "id": "326:conditional:1",
+        "trigger": "FOLLOW_UP_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.24
+        },
+        "duration": 2,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "327",
+    "name": "Fallen Star Anchorage",
+    "twoPiece": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "328",
+    "name": "Cosmic Life Sciences Institute",
+    "twoPiece": [],
+    "fourPiece": [],
+    "passives": [],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  }
+]

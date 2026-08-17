@@ -1,0 +1,4717 @@
+[
+  {
+    "id": "20000",
+    "name": "Arrows",
+    "path": "Rogue",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20001",
+    "name": "Cornucopia",
+    "path": "Priest",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 264.6,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20002",
+    "name": "Collapsing Sky",
+    "path": "Warrior",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 370.44000000000005,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20003",
+    "name": "Amber",
+    "path": "Knight",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 264.6,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20004",
+    "name": "Void",
+    "path": "Warlock",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20005",
+    "name": "Chorus",
+    "path": "Shaman",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20006",
+    "name": "Data Bank",
+    "path": "Mage",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostUltimate",
+        "value": 0.28
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.28
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20007",
+    "name": "Darting Arrow",
+    "path": "Rogue",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      "duration": 3,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.24
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:kill:0:1",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DEFPercent",
+          "value": 0.24
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20008",
+    "name": "Fine Fruit",
+    "path": "Priest",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 317.52,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20009",
+    "name": "Shattered Home",
+    "path": "Warrior",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 370.44000000000005,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20010",
+    "name": "Defense",
+    "path": "Knight",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 264.6,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20011",
+    "name": "Loop",
+    "path": "Warlock",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20012",
+    "name": "Meshing Cogs",
+    "path": "Shaman",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20013",
+    "name": "Passkey",
+    "path": "Mage",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20014",
+    "name": "Adversarial",
+    "path": "Rogue",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "DEFPercent",
+        "value": 0.1
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DEFPercent",
+          "value": 0.1
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:kill:0:1",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "SPDPercent",
+          "value": 0.1
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20015",
+    "name": "Multiplication",
+    "path": "Priest",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 317.52,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:basic_used:0:0",
+      "trigger": "BASIC_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.12
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:basic_used:0:0",
+        "trigger": "BASIC_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20016",
+    "name": "Mutual Demise",
+    "path": "Warrior",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 370.44000000000005,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20017",
+    "name": "Pioneering",
+    "path": "Knight",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 264.6,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20018",
+    "name": "Hidden Shadow",
+    "path": "Warlock",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20019",
+    "name": "Mediation",
+    "path": "Shaman",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20020",
+    "name": "Sagacity",
+    "path": "Mage",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.24
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "20021",
+    "name": "Shadowburn",
+    "path": "Memory",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20022",
+    "name": "Reminiscence",
+    "path": "Memory",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 635.04,
+      "atk": 423.36,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20023",
+    "name": "Sneering",
+    "path": "Elation",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 370.44000000000005,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "20024",
+    "name": "Lingering Tear",
+    "path": "Elation",
+    "rarity": 3,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 317.52,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21000",
+    "name": "Post-Op Conversation",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 423.36,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21001",
+    "name": "Good Night and Sleep Well",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21002",
+    "name": "Day One of My New Life",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 370.44000000000005,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21003",
+    "name": "Only Silence Remains",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21004",
+    "name": "Memories of the Past",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.28
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21005",
+    "name": "The Moles Welcome You",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:basic_used:0:0",
+      "trigger": "BASIC_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.12
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:basic_used:0:0",
+        "trigger": "BASIC_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:skill_used:2:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:3:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21006",
+    "name": "The Birth of the Self",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostFollowUp",
+        "value": 0.24
+      },
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21007",
+    "name": "Shared Feeling",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21008",
+    "name": "Eyes of the Prey",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21009",
+    "name": "Landau's Choice",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21010",
+    "name": "Swordplay",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21011",
+    "name": "Planetary Rendezvous",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 423.36,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21012",
+    "name": "A Secret Vow",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21013",
+    "name": "Make the World Clamor",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21014",
+    "name": "Perfect Timing",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectRes",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21015",
+    "name": "Resolution Shines As Pearls of Sweat",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21016",
+    "name": "Trend of the Universal Market",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 370.44000000000005,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21017",
+    "name": "Subscribe for More!",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21018",
+    "name": "Dance! Dance! Dance!",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21019",
+    "name": "Under the Blue Sky",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "DEFPercent",
+        "value": 0.12
+      },
+      "duration": 3,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DEFPercent",
+          "value": 0.12
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:kill:0:1",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "CritRate",
+          "value": 0.12
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21020",
+    "name": "Geniuses' Repose",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "DEFPercent",
+        "value": 0.24
+      },
+      "duration": 3,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DEFPercent",
+          "value": 0.24
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:kill:0:1",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "CritDmg",
+          "value": 0.24
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21021",
+    "name": "Quid Pro Quo",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21022",
+    "name": "Fermata",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21023",
+    "name": "We Are Wildfire",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 740.8800000000001,
+      "atk": 476.28,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21024",
+    "name": "River Flows in Spring",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21025",
+    "name": "Past and Future",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21026",
+    "name": "Woof! Walk Time!",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.1
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21027",
+    "name": "The Seriousness of Breakfast",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21028",
+    "name": "Warmth Shortens Cold Nights",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 370.44000000000005,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21029",
+    "name": "We Will Meet Again",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21030",
+    "name": "This Is Me!",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 370.44000000000005,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21031",
+    "name": "Return to Darkness",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21032",
+    "name": "Carve the Moon, Weave the Clouds",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21033",
+    "name": "Nowhere to Run",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21034",
+    "name": "Today Is Another Peaceful Day",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21035",
+    "name": "What Is Real?",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 423.36,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21036",
+    "name": "Dreamville Adventure",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21037",
+    "name": "Final Victor",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21038",
+    "name": "Flames Afar",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21039",
+    "name": "Destiny's Threads Forewoven",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 370.44000000000005,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectRes",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21040",
+    "name": "The Day The Cosmos Fell",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21041",
+    "name": "It's Showtime",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21042",
+    "name": "Indelible Promise",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.28
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "CritRate",
+        "value": 0.15
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "CritRate",
+          "value": 0.15
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21043",
+    "name": "Concert for Two",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 370.44000000000005,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21044",
+    "name": "Boundless Choreo",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21045",
+    "name": "After the Charmony Fall",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.28
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "SPDPercent",
+        "value": 0.08
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "SPDPercent",
+          "value": 0.08
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21046",
+    "name": "Poised to Bloom",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21047",
+    "name": "Shadowed by Night",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.28
+      }
+    ],
+    "passive": {
+      "id": "parsed:battle_start:0:0",
+      "trigger": "BATTLE_START",
+      "modifier": {
+        "stat": "SPDPercent",
+        "value": 0.08
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:battle_start:0:0",
+        "trigger": "BATTLE_START",
+        "modifier": {
+          "stat": "SPDPercent",
+          "value": 0.08
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:battle_start:0:1",
+        "trigger": "BATTLE_START",
+        "modifier": {
+          "stat": "BreakDmgBoost",
+          "value": 0.08
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21048",
+    "name": "Dream's Montage",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21050",
+    "name": "Victory In a Blink",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21051",
+    "name": "Geniuses' Greetings",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.2
+      },
+      "duration": 3,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.2
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:0:1",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "DmgBoostAll",
+          "value": 0.2
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21052",
+    "name": "Sweat Now, Cry Less",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 198.45,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21053",
+    "name": "Journey, Forever Peaceful",
+    "path": "Knight",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 370.44000000000005,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21054",
+    "name": "The Story's Next Page",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 370.44000000000005,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21055",
+    "name": "Unto Tomorrow's Morrow",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21056",
+    "name": "In Pursuit of the Wind",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21057",
+    "name": "The Flower Remembers",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.24
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21058",
+    "name": "A Trail of Bygone Blood",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21060",
+    "name": "A Dream Scented in Wheat",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21061",
+    "name": "Holiday Thermae Escapade",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21062",
+    "name": "See You at the End",
+    "path": "Rogue",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      {
+        "stat": "CritDmg",
+        "value": 0.24
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "21064",
+    "name": "Mushy Shroomy's Adventures",
+    "path": "Elation",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "21065",
+    "name": "Today's Good Luck",
+    "path": "Elation",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22000",
+    "name": "Before the Tutorial Mission Starts",
+    "path": "Warlock",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22001",
+    "name": "Hey, Over Here",
+    "path": "Priest",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 423.36,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22002",
+    "name": "For Tomorrow's Journey",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22003",
+    "name": "Ninja Record: Sound Hunt",
+    "path": "Warrior",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 264.6,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22004",
+    "name": "The Great Cosmic Enterprise",
+    "path": "Mage",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22005",
+    "name": "The Forever Victual",
+    "path": "Shaman",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.16
+      }
+    ],
+    "passive": {
+      "id": "parsed:skill_used:0:0",
+      "trigger": "SKILL_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.08
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:skill_used:0:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.08
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22006",
+    "name": "Fly Into a Pink Tomorrow",
+    "path": "Memory",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "22007",
+    "name": "Tomorrow, Together",
+    "path": "Elation",
+    "rarity": 4,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23000",
+    "name": "Night on the Milky Way",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 582.1199999999999,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:weakness_break:0:0",
+      "trigger": "WEAKNESS_BREAK",
+      "modifier": {
+        "stat": "DmgBoostAll",
+        "value": 0.3
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:weakness_break:0:0",
+        "trigger": "WEAKNESS_BREAK",
+        "modifier": {
+          "stat": "DmgBoostAll",
+          "value": 0.3
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23001",
+    "name": "In the Night",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23002",
+    "name": "Something Irreplaceable",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 582.1199999999999,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      }
+    ],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DmgBoostAll",
+          "value": 0.24
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23003",
+    "name": "But the Battle Isn't Over",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23004",
+    "name": "In the Name of the World",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "passive": {
+      "id": "parsed:skill_used:0:0",
+      "trigger": "SKILL_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.24
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:skill_used:0:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.24
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:skill_used:0:1",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "EffectHitRate",
+          "value": 0.18
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23005",
+    "name": "Moment of Victory",
+    "path": "Knight",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 476.28,
+      "def": 595.3499999999999,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.24
+      },
+      {
+        "stat": "EffectHitRate",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23006",
+    "name": "Patience Is All You Need",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23007",
+    "name": "Incessant Rain",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.24
+      }
+    ],
+    "passive": {
+      "id": "parsed:basic_used:0:0",
+      "trigger": "BASIC_USED",
+      "modifier": {
+        "stat": "Vulnerability",
+        "value": 0.12
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:basic_used:0:0",
+        "trigger": "BASIC_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:skill_used:2:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:3:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.12
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23008",
+    "name": "Echoes of the Coffin",
+    "path": "Priest",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 582.1199999999999,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23009",
+    "name": "The Unreachable Side",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 582.1199999999999,
+      "def": 330.75,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.18
+      },
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23010",
+    "name": "Before Dawn",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DmgBoostSkill",
+        "value": 0.18
+      },
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      },
+      {
+        "stat": "DmgBoostAll",
+        "value": 0.18
+      }
+    ],
+    "passive": {
+      "id": "parsed:skill_used:0:0",
+      "trigger": "SKILL_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.48
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:skill_used:0:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.48
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23011",
+    "name": "She Already Shut Her Eyes",
+    "path": "Knight",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 423.36,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.24
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23012",
+    "name": "Sleep Like the Dead",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.3
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23013",
+    "name": "Time Waits for No One",
+    "path": "Priest",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 476.28,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23014",
+    "name": "I Shall Be My Own Sword",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 582.1199999999999,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23015",
+    "name": "Brighter Than the Sun",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 635.04,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "passive": {
+      "id": "parsed:basic_used:0:0",
+      "trigger": "BASIC_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.18
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:basic_used:0:0",
+        "trigger": "BASIC_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.18
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23016",
+    "name": "Worrisome, Blissful",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.3
+      },
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23017",
+    "name": "Night of Fright",
+    "path": "Priest",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23018",
+    "name": "An Instant Before A Gaze",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23019",
+    "name": "Past Self in Mirror",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23020",
+    "name": "Baptism of Pure Thought",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23021",
+    "name": "Earthly Escapade",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.32
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23022",
+    "name": "Reforged Remembrance",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.4
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23023",
+    "name": "Inherently Unjust Destiny",
+    "path": "Knight",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 423.36,
+      "def": 661.5,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "DEFPercent",
+        "value": 0.4
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23024",
+    "name": "Along the Passing Shore",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 635.04,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23025",
+    "name": "Whereabouts Should Dreams Rest",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23026",
+    "name": "Flowing Nightglow",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.48
+      },
+      "duration": 1,
+      "target": "all_targets",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.48
+        },
+        "duration": 1,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23027",
+    "name": "Sailing Towards a Second Life",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23028",
+    "name": "Yet Hope Is Priceless",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23029",
+    "name": "Those Many Springs",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.6
+      }
+    ],
+    "passive": {
+      "id": "parsed:basic_used:0:0",
+      "trigger": "BASIC_USED",
+      "modifier": {
+        "stat": "Vulnerability",
+        "value": 0.1
+      },
+      "duration": 2,
+      "target": "event_target",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:basic_used:0:0",
+        "trigger": "BASIC_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.1
+        },
+        "duration": 2,
+        "target": "event_target",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:skill_used:2:0",
+        "trigger": "SKILL_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.1
+        },
+        "duration": 2,
+        "target": "event_target",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:3:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "Vulnerability",
+          "value": 0.1
+        },
+        "duration": 2,
+        "target": "event_target",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23030",
+    "name": "Dance at Sunset",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "DmgBoostFollowUp",
+        "value": 0.36
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "DmgBoostFollowUp",
+          "value": 0.36
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:0:1",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.36
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:ult_used:0:2",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "DmgBoostAll",
+          "value": 0.36
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23031",
+    "name": "I Venture Forth to Hunt",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.15
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23032",
+    "name": "Scent Alone Stays True",
+    "path": "Priest",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23033",
+    "name": "Ninjutsu Inscription: Dazzling Evilbreaker",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:1:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.5
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:1:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.5
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23034",
+    "name": "A Grounded Ascent",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23035",
+    "name": "Long Road Leads Home",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 476.28,
+      "def": 661.5,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23036",
+    "name": "Time Woven Into Gold",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 635.04,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23037",
+    "name": "Into the Unreachable Veil",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.12
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23038",
+    "name": "If Time Were a Flower",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      }
+    ],
+    "passive": {
+      "id": "parsed:follow_up_used:0:0",
+      "trigger": "FOLLOW_UP_USED",
+      "modifier": {
+        "stat": "CritDmg",
+        "value": 0.48
+      },
+      "duration": 2,
+      "target": "all_targets",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:follow_up_used:0:0",
+        "trigger": "FOLLOW_UP_USED",
+        "modifier": {
+          "stat": "CritDmg",
+          "value": 0.48
+        },
+        "duration": 2,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23039",
+    "name": "Flame of Blood, Blaze My Path",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1375.92,
+      "atk": 476.28,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23040",
+    "name": "Make Farewells More Beautiful",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.3
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23041",
+    "name": "Life Should Be Cast to Flames",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23042",
+    "name": "Long May Rainbows Adorn the Sky",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23043",
+    "name": "Lies Dance on the Breeze",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23044",
+    "name": "Thus Burns the Dawn",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 687.96,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "DmgBoostAll",
+        "value": 0.6
+      },
+      "duration": 1,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "DmgBoostAll",
+          "value": 0.6
+        },
+        "duration": 1,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23045",
+    "name": "A Thankless Coronation",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.36
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23046",
+    "name": "The Hell Where Ideals Burn",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.16
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23047",
+    "name": "Why Does the Ocean Sing",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectHitRate",
+        "value": 0.4
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23048",
+    "name": "Epoch Etched in Golden Blood",
+    "path": "Shaman",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.64
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23049",
+    "name": "To Evernight's Stars",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.3
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23050",
+    "name": "Never Forget Her Flame",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23051",
+    "name": "Though Worlds Apart",
+    "path": "Knight",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.64
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23052",
+    "name": "This Love, Forever",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 476.28,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23053",
+    "name": "Dazzled by a Flowery World",
+    "path": "Elation",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 582.1199999999999,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.48
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23054",
+    "name": "When She Decided to See",
+    "path": "Elation",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23056",
+    "name": "The Finale of a Lie",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 635.04,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "passive": {
+      "id": "parsed:battle_start:0:0",
+      "trigger": "BATTLE_START",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.4
+      },
+      "duration": 3,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:battle_start:0:0",
+        "trigger": "BATTLE_START",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.4
+        },
+        "duration": 3,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23057",
+    "name": "Welcome to the Cosmic City",
+    "path": "Elation",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23058",
+    "name": "Until the Flowers Bloom Again",
+    "path": "Elation",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritDmg",
+        "value": 0.6
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23059",
+    "name": "Reforged in Hellfire",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1375.92,
+      "atk": 423.36,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "HPPercent",
+        "value": 0.3
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23060",
+    "name": "A Star That Lights the Night",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 635.04,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "23061",
+    "name": "Flickering Stars",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 635.04,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.18
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "23062",
+    "name": "I Am As You Behold",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 635.04,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.18
+      }
+    ],
+    "passive": {
+      "id": "parsed:ult_used:0:0",
+      "trigger": "ULT_USED",
+      "modifier": {
+        "stat": "CritDmg",
+        "value": 0.24
+      },
+      "duration": 3,
+      "target": "all_targets",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:ult_used:0:0",
+        "trigger": "ULT_USED",
+        "modifier": {
+          "stat": "CritDmg",
+          "value": 0.24
+        },
+        "duration": 3,
+        "target": "all_targets",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24000",
+    "name": "On the Fall of an Aeon",
+    "path": "Warrior",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "unsupported"
+  },
+  {
+    "id": "24001",
+    "name": "Cruising in the Stellar Sea",
+    "path": "Rogue",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "CritRate",
+        "value": 0.08
+      }
+    ],
+    "passive": {
+      "id": "parsed:kill:0:0",
+      "trigger": "KILL",
+      "modifier": {
+        "stat": "ATKPercent",
+        "value": 0.2
+      },
+      "duration": 2,
+      "target": "self",
+      "stacking": "replace"
+    },
+    "passives": [
+      {
+        "id": "parsed:kill:0:0",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "ATKPercent",
+          "value": 0.2
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      },
+      {
+        "id": "parsed:kill:0:1",
+        "trigger": "KILL",
+        "modifier": {
+          "stat": "DEFPercent",
+          "value": 0.2
+        },
+        "duration": 2,
+        "target": "self",
+        "stacking": "replace"
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24002",
+    "name": "Texture of Memories",
+    "path": "Knight",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 423.36,
+      "def": 529.2,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "EffectRes",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24003",
+    "name": "Solitary Healing",
+    "path": "Warlock",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "BreakEffect",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24004",
+    "name": "Eternal Calculus",
+    "path": "Mage",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.08
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24005",
+    "name": "Memory's Curtain Never Falls",
+    "path": "Memory",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "SPDPercent",
+        "value": 0.06
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "24006",
+    "name": "Elation Brimming With Blessings",
+    "path": "Elation",
+    "rarity": 5,
+    "level": 80,
+    "superimposition": 1,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 529.2,
+      "def": 463.04999999999995,
+      "spd": 0
+    },
+    "staticStats": [
+      {
+        "stat": "ATKPercent",
+        "value": 0.2
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes+TurnBasedGameData",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4+648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  }
+]

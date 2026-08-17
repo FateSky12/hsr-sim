@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSR Sim · 可验证战斗模拟器</title>
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <p class="eyebrow">HSR SIM / RULESET 0.1</p>
+        <h1>可验证的战斗模拟器</h1>
+        <p class="lede">当前是抽象规则纵向切片：固定脚本、确定性 RNG、事件回放和 Worker 执行。</p>
+      </header>
+      <section class="panel">
+        <div class="toolbar">
+          <button id="run" type="button">运行训练场景</button>
+          <select id="scenario-select" aria-label="选择场景">
+            <option value="memory-of-chaos-4.4-abstracted">忘却之庭 · 抽象 4.4</option>
+            <option value="apocalyptic-shadow-4.4-abstracted">末日幻影 · 抽象 4.4</option>
+            <option value="pure-fiction-4.4-abstracted">虚构叙事 · 抽象 4.4</option>
+            <option value="turnbased-stage-30124121">客户端快照 · Stellaron Hunter: Sam</option>
+            <option value="turnbased-stage-30501011">客户端快照 · Tomorrow in Harmonious Chords</option>
+            <option value="turnbased-stage-30501012">客户端快照 · Something Unto Death</option>
+          </select>
+          <button id="run-scenario" class="secondary" type="button">运行场景</button>
+          <select id="character-select" aria-label="选择固定数据角色" disabled>
+            <option>加载固定角色目录…</option>
+          </select>
+          <button id="run-character" class="secondary" type="button" disabled>运行固定数据角色</button>
+          <button id="search" class="secondary" type="button">搜索训练配装</button>
+          <button id="share" class="secondary" type="button" disabled>复制状态链接</button>
+        <span id="status">等待运行</span>
+        </div>
+        <label class="apl-label" for="apl">APL 优先级脚本</label>
+        <textarea id="apl" spellcheck="false">basic</textarea>
+        <div class="apl-actions"><button id="run-apl" class="secondary" type="button">运行 APL</button></div>
+        <div class="team-row" aria-label="四人队伍配置">
+          <span>四人队（场景运行）</span>
+          <select id="team-1" aria-label="队伍位置 1" disabled><option>加载中…</option></select>
+          <select id="team-2" aria-label="队伍位置 2" disabled><option>加载中…</option></select>
+          <select id="team-3" aria-label="队伍位置 3" disabled><option>加载中…</option></select>
+          <select id="team-4" aria-label="队伍位置 4" disabled><option>加载中…</option></select>
+        </div>
+        <div class="import-row">
+          <label for="relic-import">导入 HSR-Scanner 遗器 JSON</label>
+          <input id="relic-import" type="file" accept="application/json,.json" />
+          <label for="relic-json">也可以直接粘贴 JSON</label>
+          <textarea id="relic-json" class="scanner-json" spellcheck="false" placeholder='{"relics":[...]}'></textarea>
+          <button id="import-relic-json" class="secondary" type="button">解析粘贴的遗器</button>
+          <span id="import-status">未导入遗器</span>
+        </div>
+        <div class="import-row enemy-row">
+          <label for="enemy-json">参数化敌人 JSON</label>
+          <textarea id="enemy-json" class="scanner-json" spellcheck="false">{
+  "id": "web_enemy",
+  "name": "可编辑训练敌人",
+  "level": 80,
+  "hp": 10000,
+  "atk": 50,
+  "defBase": 0,
+  "spd": 100,
+  "maxToughness": 30,
+  "weaknesses": ["physical", "fire", "wind"],
+  "resOverrides": {"physical": 0, "fire": 0, "wind": 0},
+  "behavior": {"pattern": ["basic"], "onBreak": {"actionDelay": 0.25}, "phases": []}
+}</textarea>
+          <button id="run-enemy" class="secondary" type="button">运行自定义敌人</button>
+        </div>
+        <dl class="metrics">
+          <div><dt>敌方剩余 HP</dt><dd id="enemy-hp">—</dd></div>
+          <div><dt>动作数</dt><dd id="actions">—</dd></div>
+          <div><dt>事件数</dt><dd id="events">—</dd></div>
+          <div><dt>状态 Hash</dt><dd id="hash">—</dd></div>
+        </dl>
+        <pre id="log" aria-live="polite">点击按钮开始。</pre>
+        <p id="search-result" class="search-result" aria-live="polite"></p>
+        <output id="share-link" class="share-link" aria-live="polite"></output>
+      </section>
+      <footer>本项目当前标记为 abstracted，不宣称与游戏客户端 1:1 一致。</footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

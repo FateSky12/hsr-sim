@@ -1,0 +1,40 @@
+{
+  "name": "hsr-sim",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A deterministic, replayable Honkai: Star Rail battle simulation workspace.",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run typecheck && npm run build:web",
+    "build:web": "npm run build --workspace @hsr-sim/web",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -b --pretty false",
+    "simulate": "npm run typecheck && node packages/cli/dist/main.js",
+    "calibrate": "npm run typecheck && node packages/cli/dist/main.js calibrate",
+    "data:fetch": "tsx packages/data/scripts/fetch-starrailres.ts",
+    "data:compile": "tsx packages/data/scripts/compile-basic-catalog.ts",
+    "data:compile:direct": "tsx packages/data/scripts/compile-direct-catalog.ts",
+    "data:compile:equipment": "tsx packages/data/scripts/compile-equipment-catalog.ts",
+    "data:compile:turnbased-lightcones": "tsx packages/data/scripts/compile-turnbased-lightcone-mechanics.ts",
+    "data:compile:turnbased": "tsx packages/data/scripts/compile-turnbased-sources.ts",
+    "data:compile:turnbased-avatars": "tsx packages/data/scripts/compile-turnbased-avatars.ts",
+    "data:coverage": "tsx packages/data/scripts/compile-coverage.ts",
+    "dev": "npm run dev --workspace @hsr-sim/web",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}

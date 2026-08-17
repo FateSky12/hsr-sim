@@ -1,0 +1,18 @@
+{
+  "name": "training-slice-0.1",
+  "rulesetVersion": "engine-0.1.0",
+  "dataRevision": "fixture-0.1",
+  "commands": [
+    { "actor": "training_support", "ability": "skill", "targets": ["training_striker"] },
+    { "actor": "training_striker", "ability": "skill", "targets": ["training_enemy"] },
+    { "actor": "training_striker", "ability": "basic", "targets": ["training_enemy"] }
+  ],
+  "expect": {
+    "actions": 3,
+    "eventCount": 52,
+    "enemyHp": 4012,
+    "breaks": 1,
+    "totalDamage": 5988,
+    "cycles": 0
+  }
+}

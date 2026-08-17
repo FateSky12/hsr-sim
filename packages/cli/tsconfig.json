@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "references": [
+    { "path": "../engine" },
+    { "path": "../data" },
+    { "path": "../equipment" },
+    { "path": "../content" },
+    { "path": "../policy" },
+    { "path": "../replay" },
+    { "path": "../scenarios" }
+  ],
+  "include": ["src/**/*.ts"]
+}

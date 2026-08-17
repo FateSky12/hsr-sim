@@ -1,0 +1,25 @@
+{
+  "id": "pure-fiction-4.4-abstracted",
+  "mode": "pure_fiction",
+  "version": "4.4-abstracted-1",
+  "totalWaves": 4,
+  "enemies": [
+    {
+      "id": "pf_4_4_training_wave",
+      "name": "虚构叙事参数化波次敌人",
+      "level": 90,
+      "hp": 150000,
+      "atk": 700,
+      "defBase": 1000,
+      "spd": 130,
+      "maxToughness": 240,
+      "weaknesses": ["ice", "lightning"],
+      "resOverrides": {},
+      "behavior": {"pattern": ["basic"], "phases": []},
+      "source": {"kind": "scenario-fixture", "revision": "4.4-abstracted-1"},
+      "coverage": "abstracted"
+    }
+  ],
+  "scoring": {"cycleBudget": 6, "clearBonus": 250, "waveWeight": 1000, "damageWeight": 0.01, "killWeight": 100},
+  "coverage": "abstracted"
+}

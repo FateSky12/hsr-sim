@@ -1,0 +1,6510 @@
+[
+  {
+    "id": "1001",
+    "name": "March 7th",
+    "path": "Knight",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 511.56,
+      "def": 573.3,
+      "spd": 101
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "shield",
+            "id": "skill:100102:shield",
+            "multiplier": 0.665,
+            "flatAmount": 973.75,
+            "scaling": "DEF",
+            "duration": 3,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.8,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1002",
+    "name": "Dan Heng",
+    "path": "Rogue",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 882,
+      "atk": 546.84,
+      "def": 396.9,
+      "spd": 110
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.25,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.8,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1003",
+    "name": "Himeko",
+    "path": "Mage",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 756.756,
+      "def": 436.59000000000003,
+      "spd": 96
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.76,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1004",
+    "name": "Welt",
+    "path": "Warlock",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1125.4319999999998,
+      "atk": 620.9280000000001,
+      "def": 509.355,
+      "spd": 102
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.9,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "bounceDamage",
+            "multiplier": 0.9,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "hits": 2,
+            "target": "random_enemy"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.8,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1005",
+    "name": "Kafka",
+    "path": "Warlock",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 679.1400000000001,
+      "def": 485.1,
+      "spd": 100
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "detonateDots",
+            "multiplier": 0.825,
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "detonateDots",
+            "multiplier": 1.1,
+            "target": "all_enemies"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.96,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          },
+          {
+            "kind": "applyDot",
+            "id": "100503:dot",
+            "multiplier": 3.6069,
+            "scaling": "ATK",
+            "element": "lightning",
+            "duration": 2,
+            "chance": 1,
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1006",
+    "name": "Silver Wolf",
+    "path": "Warlock",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 640.332,
+      "def": 460.845,
+      "spd": 107
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.45,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.56,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1008",
+    "name": "Arlan",
+    "path": "Warrior",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1199.52,
+      "atk": 599.76,
+      "def": 330.75,
+      "spd": 102
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.15,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.84,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.92,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1009",
+    "name": "Asta",
+    "path": "Shaman",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1023.12,
+      "atk": 511.56,
+      "def": 463.04999999999995,
+      "spd": 106
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.625,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "bounceDamage",
+            "multiplier": 0.625,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "hits": 4,
+            "target": "random_enemy"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_spd_flat",
+            "stat": "SPD",
+            "flat": 57,
+            "duration": 2,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1013",
+    "name": "Herta",
+    "path": "Mage",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 952.56,
+      "atk": 582.1199999999999,
+      "def": 396.9,
+      "spd": 100
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.25,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1014",
+    "name": "Saber",
+    "path": "Warrior",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 601.5239999999999,
+      "def": 654.885,
+      "spd": 101
+    },
+    "maxEnergy": 360,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.9375,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 360,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.5,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1015",
+    "name": "Archer",
+    "path": "Rogue",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 620.9280000000001,
+      "def": 485.1,
+      "spd": 105
+    },
+    "maxEnergy": 220,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.3,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.5,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 220,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 12,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1101",
+    "name": "Bronya",
+    "path": "Shaman",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 582.1199999999999,
+      "def": 533.61,
+      "spd": 99
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "cleanse",
+            "count": 1,
+            "target": "first_target"
+          },
+          {
+            "kind": "advanceForward",
+            "ratio": 1,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.825,
+            "duration": 1,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_atk",
+            "stat": "ATK",
+            "percent": 0.66,
+            "duration": 2,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1102",
+    "name": "Seele",
+    "path": "Rogue",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 931.392,
+      "atk": 640.332,
+      "def": 363.82500000000005,
+      "spd": 115
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.75,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 5.1,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1103",
+    "name": "Serval",
+    "path": "Mage",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 917.28,
+      "atk": 652.6800000000001,
+      "def": 374.85,
+      "spd": 104
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          },
+          {
+            "kind": "applyDot",
+            "id": "110302:dot",
+            "multiplier": 1.3,
+            "scaling": "ATK",
+            "element": "lightning",
+            "duration": 2,
+            "chance": 0.8,
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.16,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1104",
+    "name": "Gepard",
+    "path": "Knight",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1397.088,
+      "atk": 543.312,
+      "def": 654.885,
+      "spd": 92
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "shield",
+            "id": "ultimate:110403:shield",
+            "multiplier": 0.525,
+            "flatAmount": 768.75,
+            "scaling": "DEF",
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1105",
+    "name": "Natasha",
+    "path": "Priest",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 476.28,
+      "def": 507.15,
+      "spd": 98
+    },
+    "maxEnergy": 90,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.1225,
+            "flatAmount": 358.75,
+            "scaling": "HP",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 90,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.161,
+            "flatAmount": 471.5,
+            "scaling": "HP",
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1106",
+    "name": "Pela",
+    "path": "Warlock",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 987.8399999999999,
+      "atk": 546.84,
+      "def": 463.04999999999995,
+      "spd": 105
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.625,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1107",
+    "name": "Clara",
+    "path": "Warrior",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 737.3520000000001,
+      "def": 485.1,
+      "spd": 90
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1108",
+    "name": "Sampo",
+    "path": "Warlock",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1023.12,
+      "atk": 617.4000000000001,
+      "def": 396.9,
+      "spd": 102
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "bounceDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "hits": 4,
+            "target": "random_enemy"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.92,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "all_enemies"
+          },
+          {
+            "kind": "applyDot",
+            "id": "110803:dot",
+            "multiplier": 1.92,
+            "scaling": "ATK",
+            "element": "wind",
+            "duration": 2,
+            "chance": 1,
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1109",
+    "name": "Hook",
+    "path": "Warrior",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1340.6399999999999,
+      "atk": 617.4000000000001,
+      "def": 352.79999999999995,
+      "spd": 94
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "applyDot",
+            "id": "110902:dot",
+            "multiplier": 0.8125,
+            "scaling": "ATK",
+            "element": "fire",
+            "duration": 2,
+            "chance": 1,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.8,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1110",
+    "name": "Lynx",
+    "path": "Priest",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 493.91999999999996,
+      "def": 551.25,
+      "spd": 100
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.0875,
+            "flatAmount": 256.25,
+            "scaling": "ATK",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0,
+            "flatAmount": 1,
+            "scaling": "HP",
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1111",
+    "name": "Luka",
+    "path": "Warlock",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 917.28,
+      "atk": 582.1199999999999,
+      "def": 485.1,
+      "spd": 103
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.96,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1112",
+    "name": "Topaz & Numby",
+    "path": "Rogue",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 931.392,
+      "atk": 620.9280000000001,
+      "def": 412.33500000000004,
+      "spd": 110
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1201",
+    "name": "Qingque",
+    "path": "Mage",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1023.12,
+      "atk": 652.6800000000001,
+      "def": 441,
+      "spd": 98
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_enhance_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.35,
+            "duration": 1,
+            "target": "self"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1202",
+    "name": "Tingyun",
+    "path": "Shaman",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 846.72,
+      "atk": 529.2,
+      "def": 396.9,
+      "spd": 112
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.65,
+            "duration": 2,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1203",
+    "name": "Luocha",
+    "path": "Priest",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1280.664,
+      "atk": 756.756,
+      "def": 363.82500000000005,
+      "spd": 101
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.7,
+            "flatAmount": 1025,
+            "scaling": "ATK",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1204",
+    "name": "Jing Yuan",
+    "path": "Mage",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 698.544,
+      "def": 485.1,
+      "spd": 99
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.25,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1205",
+    "name": "Blade",
+    "path": "Warrior",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 543.312,
+      "def": 485.1,
+      "spd": 97
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1206",
+    "name": "Sushang",
+    "path": "Rogue",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 917.28,
+      "atk": 564.48,
+      "def": 418.95000000000005,
+      "spd": 107
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.625,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.84,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1207",
+    "name": "Yukong",
+    "path": "Shaman",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 917.28,
+      "atk": 599.76,
+      "def": 374.85,
+      "spd": 107
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.56,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1208",
+    "name": "Fu Xuan",
+    "path": "Knight",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1474.7040000000002,
+      "atk": 465.696,
+      "def": 606.375,
+      "spd": 100
+    },
+    "maxEnergy": 135,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "shield",
+            "id": "skill:120802:shield",
+            "multiplier": 0.65,
+            "scaling": "ATK",
+            "duration": 3,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 135,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.2,
+            "scaling": "HP",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1209",
+    "name": "Yanqing",
+    "path": "Rogue",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 892.5840000000001,
+      "atk": 679.1400000000001,
+      "def": 412.33500000000004,
+      "spd": 109
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.75,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.6,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1210",
+    "name": "Guinaifen",
+    "path": "Warlock",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 882,
+      "atk": 582.1199999999999,
+      "def": 441,
+      "spd": 106
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.5,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          },
+          {
+            "kind": "applyDot",
+            "id": "121002:dot",
+            "multiplier": 2.7277,
+            "scaling": "ATK",
+            "element": "fire",
+            "duration": 2,
+            "chance": 1,
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "detonateDots",
+            "multiplier": 1.02,
+            "target": "all_enemies"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.44,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1211",
+    "name": "Bailu",
+    "path": "Priest",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1319.4720000000002,
+      "atk": 562.7159999999999,
+      "def": 485.1,
+      "spd": 98
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.1365,
+            "flatAmount": 399.75,
+            "scaling": "HP",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.1575,
+            "flatAmount": 461.25,
+            "scaling": "HP",
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1212",
+    "name": "Jingliu",
+    "path": "Warrior",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1435.8960000000002,
+      "atk": 679.1400000000001,
+      "def": 485.1,
+      "spd": 96
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.6,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.8,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1213",
+    "name": "Dan Heng • Imbibitor Lunae",
+    "path": "Warrior",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 698.544,
+      "def": 363.82500000000005,
+      "spd": 102
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.6,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.68,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1214",
+    "name": "Xueyi",
+    "path": "Warrior",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 599.76,
+      "def": 396.9,
+      "spd": 103
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.75,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.875,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1215",
+    "name": "Hanya",
+    "path": "Shaman",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 917.28,
+      "atk": 564.48,
+      "def": 352.79999999999995,
+      "spd": 110
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_enhance_spd",
+            "stat": "SPD",
+            "percent": 0.225,
+            "duration": 2,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_enhance_atk",
+            "stat": "ATK",
+            "percent": 0.72,
+            "duration": 2,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1217",
+    "name": "Huohuo",
+    "path": "Priest",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 601.5239999999999,
+      "def": 509.355,
+      "spd": 98
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.245,
+            "flatAmount": 717.5,
+            "scaling": "ATK",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_atk",
+            "stat": "ATK",
+            "percent": 0.48,
+            "duration": 2,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1218",
+    "name": "Jiaoqiu",
+    "path": "Warlock",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 601.5239999999999,
+      "def": 509.355,
+      "spd": 98
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.125,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.2,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1220",
+    "name": "Feixiao",
+    "path": "Rogue",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 601.5239999999999,
+      "def": 388.08000000000004,
+      "spd": 112
+    },
+    "maxEnergy": 12,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 12,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.92,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1221",
+    "name": "Yunli",
+    "path": "Warrior",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 679.1400000000001,
+      "def": 460.845,
+      "spd": 94
+    },
+    "maxEnergy": 240,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1222",
+    "name": "Lingsha",
+    "path": "Priest",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 679.1400000000001,
+      "def": 436.59000000000003,
+      "spd": 98
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.8,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1223",
+    "name": "Moze",
+    "path": "Rogue",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 811.44,
+      "atk": 599.76,
+      "def": 352.79999999999995,
+      "spd": 111
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.24,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1224",
+    "name": "March 7th",
+    "path": "Rogue",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1058.4,
+      "atk": 564.48,
+      "def": 441,
+      "spd": 102
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.88,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1225",
+    "name": "Fugue",
+    "path": "Warlock",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1125.4319999999998,
+      "atk": 582.1199999999999,
+      "def": 557.865,
+      "spd": 102
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1301",
+    "name": "Gallagher",
+    "path": "Priest",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1305.3600000000001,
+      "atk": 529.2,
+      "def": 441,
+      "spd": 98
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0,
+            "flatAmount": 2020,
+            "scaling": "ATK",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1302",
+    "name": "Argenti",
+    "path": "Mage",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 737.3520000000001,
+      "def": 363.82500000000005,
+      "spd": 103
+    },
+    "maxEnergy": 180,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 180,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.92,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1303",
+    "name": "Ruan Mei",
+    "path": "Shaman",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 659.7360000000001,
+      "def": 485.1,
+      "spd": 104
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1304",
+    "name": "Aventurine",
+    "path": "Knight",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1203.0479999999998,
+      "atk": 446.29200000000003,
+      "def": 654.885,
+      "spd": 106
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "shield",
+            "id": "skill:130402:shield",
+            "multiplier": 0.28,
+            "flatAmount": 410,
+            "scaling": "DEF",
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 7,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1305",
+    "name": "Dr. Ratio",
+    "path": "Rogue",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 776.1600000000001,
+      "def": 460.845,
+      "spd": 103
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.88,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1306",
+    "name": "Sparkle",
+    "path": "Shaman",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1397.088,
+      "atk": 523.908,
+      "def": 485.1,
+      "spd": 101
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "advanceForward",
+            "ratio": 0.5,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.3,
+            "duration": 1,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_crit_dmg",
+            "stat": "CritDmg",
+            "percent": 0.3,
+            "duration": 1,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "gainSkillPoints",
+            "amount": 4
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1307",
+    "name": "Black Swan",
+    "path": "Warlock",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 659.7360000000001,
+      "def": 485.1,
+      "spd": 102
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.84,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.125,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.125,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.44,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1308",
+    "name": "Acheron",
+    "path": "Warlock",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1125.4319999999998,
+      "atk": 698.544,
+      "def": 436.59000000000003,
+      "spd": 101
+    },
+    "maxEnergy": 9,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 9,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.288,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1309",
+    "name": "Robin",
+    "path": "Shaman",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1280.664,
+      "atk": 640.332,
+      "def": 485.1,
+      "spd": 102
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.625,
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "advanceForward",
+            "ratio": 1,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1310",
+    "name": "Firefly",
+    "path": "Warrior",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 814.968,
+      "atk": 523.908,
+      "def": 776.1600000000001,
+      "spd": 104
+    },
+    "maxEnergy": 240,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 240,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "advanceForward",
+            "ratio": 1,
+            "target": "self"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_enhance_spd",
+            "stat": "SPD",
+            "percent": 0.5,
+            "duration": 1,
+            "target": "self"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1312",
+    "name": "Misha",
+    "path": "Warrior",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1270.08,
+      "atk": 599.76,
+      "def": 396.9,
+      "spd": 96
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 100,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.72,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "bounceDamage",
+            "multiplier": 0.72,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "hits": 2,
+            "target": "random_enemy"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1313",
+    "name": "Sunday",
+    "path": "Shaman",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 640.332,
+      "def": 533.61,
+      "spd": 96
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "advanceForward",
+            "ratio": 1,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "gainEnergy",
+            "ratio": 0.2,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1314",
+    "name": "Jade",
+    "path": "Mage",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 659.7360000000001,
+      "def": 509.355,
+      "spd": 103
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.26,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_spd_flat",
+            "stat": "SPD",
+            "flat": 30,
+            "duration": 3,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1315",
+    "name": "Boothill",
+    "path": "Rogue",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1203.0479999999998,
+      "atk": 620.9280000000001,
+      "def": 436.59000000000003,
+      "spd": 107
+    },
+    "maxEnergy": 115,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 115,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.8,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1317",
+    "name": "Rappa",
+    "path": "Mage",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 717.9480000000001,
+      "def": 460.845,
+      "spd": 96
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1321",
+    "name": "The Dahlia",
+    "path": "Warlock",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 679.1400000000001,
+      "def": 606.375,
+      "spd": 96
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.6,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1401",
+    "name": "The Herta",
+    "path": "Mage",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1164.2399999999998,
+      "atk": 679.1400000000001,
+      "def": 485.1,
+      "spd": 99
+    },
+    "maxEnergy": 220,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.875,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.875,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 220,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1402",
+    "name": "Aglaea",
+    "path": "Memory",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 698.544,
+      "def": 485.1,
+      "spd": 102
+    },
+    "maxEnergy": 350,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1403",
+    "name": "Tribbie",
+    "path": "Shaman",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 523.908,
+      "def": 727.6500000000001,
+      "spd": 96
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.42,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_res_pen",
+            "stat": "ResPen",
+            "percent": 0.3,
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.375,
+            "scaling": "HP",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1404",
+    "name": "Mydei",
+    "path": "Warrior",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1552.3200000000002,
+      "atk": 426.88800000000003,
+      "def": 194.04000000000002,
+      "spd": 95
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.125,
+            "scaling": "HP",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.625,
+            "scaling": "HP",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.92,
+            "scaling": "HP",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.2,
+            "scaling": "HP",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1405",
+    "name": "Anaxa",
+    "path": "Mage",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 970.2,
+      "atk": 756.756,
+      "def": 557.865,
+      "spd": 97
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.875,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "bounceDamage",
+            "multiplier": 0.875,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "hits": 4,
+            "target": "random_enemy"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 140,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1406",
+    "name": "Cipher",
+    "path": "Warlock",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 931.392,
+      "atk": 640.332,
+      "def": 509.355,
+      "spd": 106
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.25,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1407",
+    "name": "Castorice",
+    "path": "Memory",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1629.936,
+      "atk": 523.908,
+      "def": 485.1,
+      "spd": 95
+    },
+    "maxEnergy": 100,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.625,
+            "scaling": "HP",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.375,
+            "scaling": "HP",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1408",
+    "name": "Phainon",
+    "path": "Warrior",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1435.8960000000002,
+      "atk": 582.1199999999999,
+      "def": 703.395,
+      "spd": 94
+    },
+    "maxEnergy": 12,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.75,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 12,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 12,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1409",
+    "name": "Hyacine",
+    "path": "Memory",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 388.08000000000004,
+      "def": 630.6300000000001,
+      "spd": 110
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "heal",
+            "multiplier": 0.1,
+            "flatAmount": 205,
+            "scaling": "HP",
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1410",
+    "name": "Hysilens",
+    "path": "Warlock",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1203.0479999999998,
+      "atk": 601.5239999999999,
+      "def": 485.1,
+      "spd": 102
+    },
+    "maxEnergy": 110,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.75,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 110,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1412",
+    "name": "Cerydra",
+    "path": "Shaman",
+    "element": "wind",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 620.9280000000001,
+      "def": 485.1,
+      "spd": 99
+    },
+    "maxEnergy": 130,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_res_pen",
+            "stat": "ResPen",
+            "percent": 0.11,
+            "duration": 1,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 130,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.88,
+            "scaling": "ATK",
+            "element": "wind",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1413",
+    "name": "Evernight",
+    "path": "Memory",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1319.4720000000002,
+      "atk": 543.312,
+      "def": 582.1199999999999,
+      "spd": 99
+    },
+    "maxEnergy": 240,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 240,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1414",
+    "name": "Dan Heng • Permansor Terrae",
+    "path": "Knight",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 582.1199999999999,
+      "def": 776.1600000000001,
+      "spd": 97
+    },
+    "maxEnergy": 135,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "shield",
+            "id": "skill:141402:shield",
+            "multiplier": 0.23,
+            "flatAmount": 512.5,
+            "scaling": "ATK",
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 135,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.75,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1415",
+    "name": "Cyrene",
+    "path": "Memory",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1397.088,
+      "atk": 446.29200000000003,
+      "def": 582.1199999999999,
+      "spd": 101
+    },
+    "maxEnergy": 24,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1501",
+    "name": "Sparxie",
+    "path": "Elation",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 640.332,
+      "def": 460.845,
+      "spd": 107
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1502",
+    "name": "Yao Guang",
+    "path": "Elation",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 465.696,
+      "def": 654.885,
+      "spd": 101
+    },
+    "maxEnergy": 180,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.26,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 180,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_res_pen",
+            "stat": "ResPen",
+            "percent": 0.25,
+            "duration": 3,
+            "target": "all_allies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1504",
+    "name": "Ashveil",
+    "path": "Rogue",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 853.7760000000001,
+      "atk": 776.1600000000001,
+      "def": 388.08000000000004,
+      "spd": 106
+    },
+    "maxEnergy": 150,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.5,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 150,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 5,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1505",
+    "name": "Evanescia",
+    "path": "Elation",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 737.3520000000001,
+      "def": 460.845,
+      "spd": 104
+    },
+    "maxEnergy": 480,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.75,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.875,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 480,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1506",
+    "name": "Silver Wolf LV.999",
+    "path": "Elation",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 388.08000000000004,
+      "def": 654.885,
+      "spd": 110
+    },
+    "maxEnergy": 60,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 60,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "advanceForward",
+            "ratio": 1,
+            "target": "self"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1507",
+    "name": "Mortenax Blade",
+    "path": "Warlock",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1358.2800000000002,
+      "atk": 543.312,
+      "def": 485.1,
+      "spd": 107
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.7,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.9,
+            "scaling": "HP",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 4.2,
+            "scaling": "HP",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1508",
+    "name": "Rin Tohsaka",
+    "path": "Mage",
+    "element": "quantum",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 698.544,
+      "def": 460.845,
+      "spd": 102
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 2.25,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 7.5,
+            "scaling": "ATK",
+            "element": "quantum",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1509",
+    "name": "Gilgamesh",
+    "path": "Warrior",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1125.4319999999998,
+      "atk": 717.9480000000001,
+      "def": 509.355,
+      "spd": 97
+    },
+    "maxEnergy": 360,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3.5,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 360,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 5,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "1510",
+    "name": "Himeko • Nova",
+    "path": "Mage",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1125.4319999999998,
+      "atk": 756.756,
+      "def": 485.1,
+      "spd": 98
+    },
+    "maxEnergy": 150,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 150,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8001",
+    "name": "{NICKNAME}",
+    "path": "Warrior",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1203.0479999999998,
+      "atk": 620.9280000000001,
+      "def": 460.845,
+      "spd": 100
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5625,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5625,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 5.25,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8002",
+    "name": "{NICKNAME}",
+    "path": "Warrior",
+    "element": "physical",
+    "level": 80,
+    "baseStats": {
+      "hp": 1203.0479999999998,
+      "atk": 620.9280000000001,
+      "def": 460.845,
+      "spd": 100
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5625,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          },
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.5625,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "adjacent_targets"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 5.25,
+            "scaling": "ATK",
+            "element": "physical",
+            "damageType": "normal",
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8003",
+    "name": "{NICKNAME}",
+    "path": "Knight",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 601.5239999999999,
+      "def": 606.375,
+      "spd": 95
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_defence_reduction",
+            "stat": "DmgReduction",
+            "percent": 0.55,
+            "duration": 1,
+            "target": "self"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.25,
+            "scaling": "DEF",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8004",
+    "name": "{NICKNAME}",
+    "path": "Knight",
+    "element": "fire",
+    "level": 80,
+    "baseStats": {
+      "hp": 1241.8560000000002,
+      "atk": 601.5239999999999,
+      "def": 606.375,
+      "spd": 95
+    },
+    "maxEnergy": 120,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "fire",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_defence_reduction",
+            "stat": "DmgReduction",
+            "percent": 0.55,
+            "duration": 1,
+            "target": "self"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 120,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.25,
+            "scaling": "DEF",
+            "element": "fire",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8005",
+    "name": "{NICKNAME}",
+    "path": "Shaman",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 446.29200000000003,
+      "def": 679.1400000000001,
+      "spd": 105
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": []
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8006",
+    "name": "{NICKNAME}",
+    "path": "Shaman",
+    "element": "imaginary",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 446.29200000000003,
+      "def": 679.1400000000001,
+      "spd": 105
+    },
+    "maxEnergy": 140,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "imaginary",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": []
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8007",
+    "name": "{NICKNAME}",
+    "path": "Memory",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 543.312,
+      "def": 630.6300000000001,
+      "spd": 103
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8008",
+    "name": "{NICKNAME}",
+    "path": "Memory",
+    "element": "ice",
+    "level": 80,
+    "baseStats": {
+      "hp": 1047.816,
+      "atk": 543.312,
+      "def": 630.6300000000001,
+      "spd": 103
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 3,
+            "scaling": "ATK",
+            "element": "ice",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8009",
+    "name": "{NICKNAME}",
+    "path": "Elation",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 465.696,
+      "def": 630.6300000000001,
+      "spd": 106
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.6,
+            "duration": 3,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_crit_dmg",
+            "stat": "CritDmg",
+            "percent": 0.6,
+            "duration": 3,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "8010",
+    "name": "{NICKNAME}",
+    "path": "Elation",
+    "element": "lightning",
+    "level": 80,
+    "baseStats": {
+      "hp": 1086.624,
+      "atk": 465.696,
+      "def": 630.6300000000001,
+      "spd": 106
+    },
+    "maxEnergy": 160,
+    "abilities": [
+      {
+        "id": "basic",
+        "actionType": "basic",
+        "spGain": 1,
+        "energyGain": 20,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 1.4,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "toughnessDamage": 10,
+            "target": "first_target"
+          }
+        ]
+      },
+      {
+        "id": "skill",
+        "actionType": "skill",
+        "spCost": 1,
+        "energyGain": 30,
+        "effects": [
+          {
+            "kind": "dealDamage",
+            "multiplier": 0.75,
+            "scaling": "ATK",
+            "element": "lightning",
+            "damageType": "normal",
+            "target": "all_enemies"
+          }
+        ]
+      },
+      {
+        "id": "ultimate",
+        "actionType": "ultimate",
+        "energyCost": 160,
+        "energyGain": 5,
+        "effects": [
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_dmg",
+            "stat": "DmgBoostAll",
+            "percent": 0.6,
+            "duration": 3,
+            "target": "first_target"
+          },
+          {
+            "kind": "modifyStat",
+            "id": "compiled_support_crit_dmg",
+            "stat": "CritDmg",
+            "percent": 0.6,
+            "duration": 3,
+            "target": "first_target"
+          }
+        ]
+      }
+    ],
+    "source": {
+      "kind": "StarRailRes",
+      "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+    },
+    "coverage": "abstracted"
+  }
+]

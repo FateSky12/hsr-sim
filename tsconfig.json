@@ -1,0 +1,15 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/engine" },
+    { "path": "./packages/content" },
+    { "path": "./packages/data" },
+    { "path": "./packages/scenarios" },
+    { "path": "./packages/equipment" },
+    { "path": "./packages/search" },
+    { "path": "./packages/policy" },
+    { "path": "./packages/replay" },
+    { "path": "./packages/cli" },
+    { "path": "./apps/web" }
+  ]
+}

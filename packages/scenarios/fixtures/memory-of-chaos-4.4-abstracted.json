@@ -1,0 +1,25 @@
+{
+  "id": "memory-of-chaos-4.4-abstracted",
+  "mode": "memory_of_chaos",
+  "version": "4.4-abstracted-1",
+  "totalWaves": 2,
+  "enemies": [
+    {
+      "id": "moc_4_4_training_boss",
+      "name": "MoC 参数化首领",
+      "level": 95,
+      "hp": 450000,
+      "atk": 1000,
+      "defBase": 1150,
+      "spd": 145,
+      "maxToughness": 540,
+      "weaknesses": ["fire", "lightning", "imaginary"],
+      "resOverrides": {"quantum": 0.4},
+      "behavior": {"pattern": ["basic", "basic"], "onBreak": {"actionDelay": 0.25}, "phases": []},
+      "source": {"kind": "scenario-fixture", "revision": "4.4-abstracted-1"},
+      "coverage": "abstracted"
+    }
+  ],
+  "scoring": {"cycleBudget": 10, "clearBonus": 1000, "breakWeight": 100, "breakDamageWeight": 0.1},
+  "coverage": "abstracted"
+}

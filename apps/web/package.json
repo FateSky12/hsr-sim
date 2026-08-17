@@ -1,0 +1,21 @@
+{
+  "name": "@hsr-sim/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "dev": "npm run prepare-data && vite --config vite.config.ts",
+    "build": "npm run prepare-data && vite build --config vite.config.ts"
+  },
+  "dependencies": {
+    "@hsr-sim/content": "file:../../packages/content",
+    "@hsr-sim/data": "file:../../packages/data",
+    "@hsr-sim/equipment": "file:../../packages/equipment",
+    "@hsr-sim/engine": "file:../../packages/engine",
+    "@hsr-sim/policy": "file:../../packages/policy",
+    "@hsr-sim/replay": "file:../../packages/replay",
+    "@hsr-sim/scenarios": "file:../../packages/scenarios",
+    "@hsr-sim/search": "file:../../packages/search"
+  }
+}

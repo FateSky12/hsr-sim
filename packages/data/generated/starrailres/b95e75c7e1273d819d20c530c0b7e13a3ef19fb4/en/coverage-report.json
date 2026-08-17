@@ -1,0 +1,691 @@
+{
+  "source": {
+    "kind": "StarRailRes",
+    "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4"
+  },
+  "totalCharacters": 95,
+  "basicCharacters": 95,
+  "directSkillCharacters": 57,
+  "directUltimateCharacters": 66,
+  "compiledSkillCharacters": 78,
+  "compiledUltimateCharacters": 83,
+  "effectCounts": {
+    "Defence": 7,
+    "AoEAttack": 68,
+    "SingleAttack": 48,
+    "Blast": 43,
+    "Bounce": 10,
+    "Support": 33,
+    "Enhance": 22,
+    "Restore": 14,
+    "Impair": 1,
+    "Summon": 6
+  },
+  "characters": [
+    {
+      "id": "1001",
+      "name": "March 7th",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1002",
+      "name": "Dan Heng",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1003",
+      "name": "Himeko",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1004",
+      "name": "Welt",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1005",
+      "name": "Kafka",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1006",
+      "name": "Silver Wolf",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1008",
+      "name": "Arlan",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1009",
+      "name": "Asta",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1013",
+      "name": "Herta",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1014",
+      "name": "Saber",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1015",
+      "name": "Archer",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1101",
+      "name": "Bronya",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1102",
+      "name": "Seele",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1103",
+      "name": "Serval",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1104",
+      "name": "Gepard",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1105",
+      "name": "Natasha",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1106",
+      "name": "Pela",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1107",
+      "name": "Clara",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1108",
+      "name": "Sampo",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1109",
+      "name": "Hook",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1110",
+      "name": "Lynx",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1111",
+      "name": "Luka",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1112",
+      "name": "Topaz & Numby",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1201",
+      "name": "Qingque",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1202",
+      "name": "Tingyun",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1203",
+      "name": "Luocha",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1204",
+      "name": "Jing Yuan",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1205",
+      "name": "Blade",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1206",
+      "name": "Sushang",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1207",
+      "name": "Yukong",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1208",
+      "name": "Fu Xuan",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1209",
+      "name": "Yanqing",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1210",
+      "name": "Guinaifen",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1211",
+      "name": "Bailu",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1212",
+      "name": "Jingliu",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1213",
+      "name": "Dan Heng • Imbibitor Lunae",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1214",
+      "name": "Xueyi",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1215",
+      "name": "Hanya",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1217",
+      "name": "Huohuo",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1218",
+      "name": "Jiaoqiu",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1220",
+      "name": "Feixiao",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1221",
+      "name": "Yunli",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1222",
+      "name": "Lingsha",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1223",
+      "name": "Moze",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1224",
+      "name": "March 7th",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1225",
+      "name": "Fugue",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1301",
+      "name": "Gallagher",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1302",
+      "name": "Argenti",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1303",
+      "name": "Ruan Mei",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1304",
+      "name": "Aventurine",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1305",
+      "name": "Dr. Ratio",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1306",
+      "name": "Sparkle",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1307",
+      "name": "Black Swan",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1308",
+      "name": "Acheron",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1309",
+      "name": "Robin",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1310",
+      "name": "Firefly",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1312",
+      "name": "Misha",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1313",
+      "name": "Sunday",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1314",
+      "name": "Jade",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1315",
+      "name": "Boothill",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1317",
+      "name": "Rappa",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1321",
+      "name": "The Dahlia",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1401",
+      "name": "The Herta",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1402",
+      "name": "Aglaea",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1403",
+      "name": "Tribbie",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1404",
+      "name": "Mydei",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1405",
+      "name": "Anaxa",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1406",
+      "name": "Cipher",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1407",
+      "name": "Castorice",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1408",
+      "name": "Phainon",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1409",
+      "name": "Hyacine",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1410",
+      "name": "Hysilens",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1412",
+      "name": "Cerydra",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1413",
+      "name": "Evernight",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1414",
+      "name": "Dan Heng • Permansor Terrae",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1415",
+      "name": "Cyrene",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "1501",
+      "name": "Sparxie",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1502",
+      "name": "Yao Guang",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1504",
+      "name": "Ashveil",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1505",
+      "name": "Evanescia",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1506",
+      "name": "Silver Wolf LV.999",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "1507",
+      "name": "Mortenax Blade",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1508",
+      "name": "Rin Tohsaka",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1509",
+      "name": "Gilgamesh",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "1510",
+      "name": "Himeko • Nova",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8001",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8002",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8003",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8004",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "compiled",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8005",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "8006",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "unsupported"
+    },
+    {
+      "id": "8007",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8008",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "unsupported",
+      "ultimate": "direct"
+    },
+    {
+      "id": "8009",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    },
+    {
+      "id": "8010",
+      "name": "{NICKNAME}",
+      "basic": "present",
+      "skill": "direct",
+      "ultimate": "compiled"
+    }
+  ]
+}

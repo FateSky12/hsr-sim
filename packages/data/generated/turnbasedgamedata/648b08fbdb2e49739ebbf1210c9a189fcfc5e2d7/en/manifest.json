@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "TurnBasedGameData",
+  "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7",
+  "clientVersion": "4.4",
+  "stageIds": [
+    "30124121",
+    "30501011",
+    "30501012"
+  ],
+  "stageModeOverrides": {
+    "30124121": "memory_of_chaos",
+    "30501011": "apocalyptic_shadow",
+    "30501012": "pure_fiction"
+  }
+}

@@ -1,0 +1,334 @@
+[
+  {
+    "id": "1023020",
+    "name": "Frigid Prowler",
+    "level": 95,
+    "rank": "elite",
+    "hp": 1116,
+    "atk": 18,
+    "def": 210,
+    "spd": 100,
+    "toughness": 300,
+    "weaknesses": [
+      "fire",
+      "lightning",
+      "quantum"
+    ],
+    "resistance": {
+      "physical": 0.2,
+      "fire": 0,
+      "ice": 0.4,
+      "lightning": 0,
+      "wind": 0.2,
+      "quantum": 0,
+      "imaginary": 0.2
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "1023020",
+      "monsterTemplateId": "1023020",
+      "skillIds": [
+        "102302001",
+        "102302005",
+        "102302006",
+        "102302007",
+        "102302008",
+        "102302009",
+        "102302010"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "3004012",
+    "name": "The Past, Present, and Eternal Show",
+    "level": 95,
+    "rank": "boss",
+    "hp": 4650,
+    "atk": 18,
+    "def": 210,
+    "spd": 100,
+    "toughness": 0,
+    "weaknesses": [],
+    "resistance": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "wind": 0,
+      "quantum": 0,
+      "imaginary": 0
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "3004012",
+      "monsterTemplateId": "3004012",
+      "skillIds": [
+        "300401201",
+        "300401202",
+        "300401203",
+        "300401204",
+        "300401205"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "3012020",
+    "name": "Memory Zone Meme \"Heartbreaker\"",
+    "level": 95,
+    "rank": "normal",
+    "hp": 130.2,
+    "atk": 18,
+    "def": 210,
+    "spd": 100,
+    "toughness": 60,
+    "weaknesses": [
+      "fire",
+      "ice",
+      "lightning"
+    ],
+    "resistance": {
+      "physical": 0.2,
+      "fire": 0,
+      "ice": 0,
+      "lightning": 0,
+      "wind": 0.2,
+      "quantum": 0.2,
+      "imaginary": 0.2
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "3012020",
+      "monsterTemplateId": "3012020",
+      "skillIds": [
+        "301202001",
+        "301202002"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "3013010",
+    "name": "Memory Zone Meme \"Shell of Faded Rage\"",
+    "level": 95,
+    "rank": "elite",
+    "hp": 1302,
+    "atk": 18,
+    "def": 210,
+    "spd": 110,
+    "toughness": 360,
+    "weaknesses": [
+      "lightning",
+      "quantum",
+      "imaginary"
+    ],
+    "resistance": {
+      "physical": 0.2,
+      "fire": 0.2,
+      "ice": 0.2,
+      "lightning": 0,
+      "wind": 0.2,
+      "quantum": 0,
+      "imaginary": 0
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "3013010",
+      "monsterTemplateId": "3013010",
+      "skillIds": [
+        "301301001",
+        "301301002",
+        "301301003",
+        "301301004",
+        "301301005"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "3014020",
+    "name": "Memory Zone Meme \"Something Unto Death\"",
+    "level": 95,
+    "rank": "boss",
+    "hp": 2046,
+    "atk": 18,
+    "def": 210,
+    "spd": 144,
+    "toughness": 720,
+    "weaknesses": [
+      "fire",
+      "wind",
+      "imaginary"
+    ],
+    "resistance": {
+      "physical": 0.2,
+      "fire": 0,
+      "ice": 0.2,
+      "lightning": 0.2,
+      "wind": 0,
+      "quantum": 0.2,
+      "imaginary": 0
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "3014020",
+      "monsterTemplateId": "3014020",
+      "skillIds": [
+        "301402001",
+        "301402002",
+        "301402003",
+        "301402004",
+        "301402005",
+        "301402006",
+        "301402007",
+        "301402008",
+        "301402009"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "3024020",
+    "name": "Stellaron Hunter: Sam",
+    "level": 95,
+    "rank": "boss",
+    "hp": 4650,
+    "atk": 18,
+    "def": 210,
+    "spd": 120,
+    "toughness": 600,
+    "weaknesses": [
+      "lightning",
+      "quantum",
+      "imaginary"
+    ],
+    "resistance": {
+      "physical": 0.2,
+      "fire": 0.2,
+      "ice": 0.2,
+      "lightning": 0,
+      "wind": 0.2,
+      "quantum": 0,
+      "imaginary": 0
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "3024020",
+      "monsterTemplateId": "3024020",
+      "skillIds": [
+        "302402001",
+        "302402002",
+        "302402003",
+        "302402004",
+        "302402005",
+        "302402006",
+        "302402007"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  },
+  {
+    "id": "4053010",
+    "name": "Lady of Crashing Waves",
+    "level": 95,
+    "rank": "elite",
+    "hp": 1395,
+    "atk": 18,
+    "def": 210,
+    "spd": 144,
+    "toughness": 540,
+    "weaknesses": [
+      "physical",
+      "fire",
+      "lightning"
+    ],
+    "resistance": {
+      "physical": 0,
+      "fire": 0,
+      "ice": 0.2,
+      "lightning": 0,
+      "wind": 0.2,
+      "quantum": 0.2,
+      "imaginary": 0.2
+    },
+    "behavior": {
+      "pattern": [
+        "basic"
+      ],
+      "phases": []
+    },
+    "sourceIds": {
+      "monsterId": "4053010",
+      "monsterTemplateId": "4053010",
+      "skillIds": [
+        "405301001",
+        "405301002",
+        "405301003",
+        "405301004",
+        "405301005",
+        "405301006",
+        "405301007"
+      ]
+    },
+    "source": {
+      "kind": "TurnBasedGameData",
+      "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7"
+    },
+    "coverage": "abstracted"
+  }
+]
