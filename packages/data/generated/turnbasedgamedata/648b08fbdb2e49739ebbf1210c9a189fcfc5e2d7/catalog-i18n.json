@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "TurnBasedGameData",
+  "revision": "648b08fbdb2e49739ebbf1210c9a189fcfc5e2d7",
+  "catalogKind": "ui-labels",
+  "locales": {
+    "en": {
+      "scenarios": {
+        "memory-of-chaos-4.4-abstracted": "Memory of Chaos · Abstract 4.4",
+        "apocalyptic-shadow-4.4-abstracted": "Apocalyptic Shadow · Abstract 4.4",
+        "pure-fiction-4.4-abstracted": "Pure Fiction · Abstract 4.4",
+        "turnbased-stage-30124121": "Client snapshot · Stellaron Hunter: Sam",
+        "turnbased-stage-30501011": "Client snapshot · Tomorrow in Harmonious Chords",
+        "turnbased-stage-30501012": "Client snapshot · Something Unto Death"
+      },
+      "enemies": {
+        "moc_4_4_training_boss": "MoC parameterized boss",
+        "as_4_4_training_boss": "Apocalyptic Shadow parameterized boss",
+        "pf_4_4_training_wave": "Pure Fiction parameterized wave enemy",
+        "1023020": "Frigid Prowler",
+        "3004012": "The Past, Present, and Eternal Show",
+        "3012020": "Memory Zone Meme \"Heartbreaker\"",
+        "3013010": "Memory Zone Meme \"Shell of Faded Rage\"",
+        "3014020": "Memory Zone Meme \"Something Unto Death\"",
+        "3024020": "Stellaron Hunter: Sam",
+        "4053010": "Lady of Crashing Waves"
+      }
+    },
+    "zh-CN": {
+      "scenarios": {
+        "memory-of-chaos-4.4-abstracted": "忘却之庭 · 抽象 4.4",
+        "apocalyptic-shadow-4.4-abstracted": "末日幻影 · 抽象 4.4",
+        "pure-fiction-4.4-abstracted": "虚构叙事 · 抽象 4.4",
+        "turnbased-stage-30124121": "客户端快照 · 星核猎手·萨姆",
+        "turnbased-stage-30501011": "客户端快照 · 昔在、今在、永在的剧目",
+        "turnbased-stage-30501012": "客户端快照 · 忆域迷因「何物朝向死亡」"
+      },
+      "enemies": {
+        "moc_4_4_training_boss": "忘却之庭参数化首领",
+        "as_4_4_training_boss": "末日幻影参数化首领",
+        "pf_4_4_training_wave": "虚构叙事参数化波次敌人",
+        "1023020": "深寒徘徊者",
+        "3004012": "昔在、今在、永在的剧目",
+        "3012020": "忆域迷因「心碎者」",
+        "3013010": "忆域迷因「狂怒褪去之壳」",
+        "3014020": "忆域迷因「何物朝向死亡」",
+        "3024020": "星核猎手·萨姆",
+        "4053010": "惊涛之女"
+      }
+    }
+  }
+}

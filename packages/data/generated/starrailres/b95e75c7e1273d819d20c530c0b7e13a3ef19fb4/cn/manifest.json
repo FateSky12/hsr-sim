@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "StarRailRes",
+  "revision": "b95e75c7e1273d819d20c530c0b7e13a3ef19fb4",
+  "language": "cn",
+  "derivedFrom": "en/direct-characters.json with names from cn/characters.json",
+  "files": [
+    "characters.json",
+    "character_promotions.json",
+    "character_skills.json",
+    "direct-characters.json"
+  ],
+  "fetchedAt": "2026-08-07T18:10:19.307260Z",
+  "coverage": "abstracted"
+}
